@@ -1,0 +1,31 @@
+.column {
+	float:left;
+	width: 50%;
+}
+
+.link_ppal {
+	float:right;
+	width: 50%;
+	padding: 1px 1px;
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+	background-color: gray;
+}
+
+.rightColumn {
+	float:right;
+	width:16.6%;
+}
+
+.rightColumn2 {
+	float:right;
+	width:50%;
+}
+.midColumn2 {
+	float:left;
+	width:50%;
+}
+
+.fontColor1 {
+	color: rgb(255, 255, 255);
+}
