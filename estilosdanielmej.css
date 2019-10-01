@@ -1,53 +1,79 @@
-.header {
-  background-color: #FFFFFF;
+body {
+  background-color: #23374d;
+  font-family: fantasy;
+}
+h2{
   text-align: center;
-  padding: 10px;
+  color:#23374d;
 }
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+#contenido{
+  color:#23374d;
+  font-family: fantasy;
+  font-size: 18px;
 }
-
-/* Style the topnav links */
-.topnav a {
+/*Defino el espacio para las columnas*/
+.leftColumn {
   float: left;
-  display: block;
-  color: #f2f2f2;
+  width: 25%;
+  padding: 15px;  
+  background-color: #1089ff;
+  position:fixed;
+
+}
+.rigthtColumn {
+  float: right;
+  width: 70%;
+  padding: 15px;
+  background-color: #e5e5e5;
+}
+
+#frase{
+  background-color: #23374d;
+  text-align: justify;
+  font-size: 17px;
+  padding: 15px;
+  color:  #e5e5e5;
+}
+
+#nombre{
+  color: #23374d;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  font-size: 25px;
+}
+.estante{
+  width: 25%;  
+  float:left;
+}
+#libro{
+  width: 200px;
+  height: 275px;
+  border-radius: 20px;
+  padding: 5px; 
 }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.object  {
-  color: #92d1c3;
+#librosfav{
+  color: #23374d;
   text-align: left;
+  font-size: 20px;  
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
+#GustosMusic{
+  color: #23374d;
+  text-align: left;
+  font-size: 20px;  
   padding: 15px;
 }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.video{
+  width: 50%;  
+  float:left;
 }
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-  }
+.sugerencia{
+  
+}
+#sugerencias{
+  color: #23374d;
+  text-align: left;
+  font-size: 20px;  
+  padding: 15px;
 }
 

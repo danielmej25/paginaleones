@@ -2,36 +2,119 @@
 	<HEAD>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Daniel Mejia </title>        
-        <link rel="stylesheet" href="estilosdanielmej.css" />
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="estilosdanielmej.css"/>
 		<style>
-		body {
-			background-color: #0A171F;
-		}
+		
 		</style>
 	</HEAD>
-	<BODY>
-		 <h1 class="header">		 
-		 Daniel Alejandro Mejia
-		 </h1>
-		 
-		<div>
-		<center>
-		<img src="https://i.pinimg.com/originals/cb/89/ab/cb89ab2549fc9ac0038285cd0a5fe9ba.jpg" width="300" height="400">
-		</center>
+	<BODY>	
+		<div class="leftColumn" id="contenido">
+			<p>Contenido:</p>
+			<ul>
+					<li type="disc"><a href="#DatosPersonales">Datos Personales.</a></li>
+					<li type="disc"><a href="#LibrosFavoritos">Libros Favoritos.</a></li>	
+					<li type="disc"><a href="#GustosMusicales">Gustos Musicales</a></li>
+					<li type="disc"><a href="#sugerencias">Sugerencias y/o Comentarios</a></li>
+					
+			</ul>
+			<p id="frase">
+					Frase celebre: "La vida no se trata de tener buenas cartas sino de jugar bien con las que se tiene"	
+			</p>
+			<a href="index.html">Regresar</a>			
+		</div>
+
+		<div class="rigthtColumn">
+			<a name="DatosPersonales"></a>
+			<p id="nombre"> Daniel Alejandro Mejia (Lider de la tribu)	</p>	
+			
+			<p>Daniel Mejia es un estudiante de ingenieria de sistemas en la Universidad del Cauca, lider de la tribu Leones legendarios. Nacio el 25 de septiembre de 1999 en la ciudad de Pasto (Colombia), actualmente vive en Popayán.</p>
+
+			<div>
+				<br>
+				<a name="LibrosFavoritos"></a>
+				<p id="librosfav">Libros favoritos</p>	
+				<br></br>	
+				<div class="estante">
+					El principito
+					<a href="https://www.amazon.es/Principito-Antoine-Saint-Exup%C3%A9ry-Saint-Exupery/dp/8498381495"><img src="dmprincipito.jpg" id="libro"></a>
+				</div>	
+				<div class="estante">	
+					Quijote de la mancha
+					<a href="https://www.amazon.es/Quijote-Mancha-Academia-Lengua-Espa%C3%B1ola/dp/8467263709/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Quijote+de+la+mancha&qid=1569966381&s=books&sr=1-1"> <img src="dmquijote.jpg" id="libro"></a>	
+				</div>
+				<div class="estante">	
+					El Moro
+					<a href="https://www.panamericana.com.co/el-moro/p"><img src="dmmoro.jpg" id="libro"></a>						
+				</div>
+				<div class="estante">		
+					La Odisea
+					<a href="https://www.amazon.es/Odisea-Homero-ebook/dp/B0078PHP8A"><img src="dmodisea.jpg" id="libro"></a>
+					
+				</div>
+			</div>
+
+			<div>	
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>	
+				<br></br>
+				<br></br>					
+				<a name="GustosMusicales"></a>
+				<p id="GustosMusic">Gustos Musicales</p>
+				<div class="video">
+					<p>Milky Chance - Sweet Sun</p>
+					<iframe width="400" height="300" src="https://www.youtube.com/embed/vkIbns5LDow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="video">
+					<p>Heroes del silencio - apuesta por el rock and roll</p>
+					<iframe width="400" height="300" src="https://www.youtube.com/embed/6Tju36zZEcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>				
+			</div>
+
+			
+			<div class="sugerencia">	
+				<br></br>	
+				<br></br>
+				<br></br>	
+				<br></br>	
+				
+				<a name="Sugerencias"></a>
+				<p id="sugerencias">Sugerencias y/o Comentarios</p>
+				<form action="ejemplo.php" method="get">
+					<p>Nombre: <input type="text" name="nombre" size="35"></p>
+
+					<p>Email: <input type="text" name="email" size="38"></p>
+
+					<p>Sexo:
+					  <input type="radio" name="sex" value="h"> Masculino
+					  <input type="radio" name="sex" value="m"> Femenino
+					  <input type="radio" name="sex" value="m"> Indefinido
+					</p>
+
+					<p>Pais: <input type="text" name="email" size="39"></p>
+
+					<p>Ciudad: <input type="text" name="email" size="35"></p>
+
+					<p>Sugerencia:
+					  <input type="text" name="sugerencia" size="30">
+					</p>
+
+					
+					<button type="enviar">Enviar</button>
+					
+					
+					
+				</form>			
+			</div>
+
 		</div>
 		
-		<h2>
-		<font color="white">
-			Frase celebre: "La vida no se trata de tener buenas cartas sino de jugar bien con las que se tiene"
-		</font>	
-		</h2>
 		
-		<h3 class="object">
-			<center>
-			<p><a href="index.html">Regresar</a></p>
-			</center>
-		</h3
+
 	</BODY> 
 </HTML>
 
