@@ -1,34 +1,130 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Wilmer Benavides </title>        
-        <link rel="stylesheet" href="estilosWil.css" />
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="estiloswilmer.css" />
+		
 		<style>
-		body {
-			background-color: #0A171F;
-		}
+		
 		</style>
 	</head>
 	<body>
-		<h1 class="header">		 
-		  Leones legendarios
-		 </h1>
-		 <h2 class="header">		 
-		 Wilmer Ancizar Benavides H
-		 </h2>
-		<center><img src="leonWilmer.jpg"></center>
-		<h3>
-		<font color="white">
-			Frase: "tienes solo un objetivo en este mundo, "logralo"."
-		</font>	
-		</h3>
-		
-		<h4 class="object">
-			<center>
-			<p><a href="index.html">Regresar</a></p>
-			</center>
-		</h4
+		<div class="rightColumn" id="contenido">
+		<p id="frase">
+					"RECUERDA QUE TIENES UN PROPOSITO EN ESTE MUNDO, LOGRALO"	
+		</p>
+		  <p>Contenido:</p>
+			<ul>
+					<li type="disc"><a href="#DatosPersonales">Datos Personales.</a></li>
+					<li type="disc"><a href="#GustosMusicales">Musica Preferida</a></li>
+					<li type="disc"><a href="#LibrosFavoritos">Libros Favoritos.</a></li>				
+					<li type="disc"><a href="#sugerencias">Sugerencias</a></li>
+					
+			</ul>
+			<br></br>
+			<a href="index.html">Regresar</a>
+			<br></br>
+				
+		</div> 
+
+		<div class="leftColumn">
+			<a name="DatosPersonales"></a>
+			<p id="nombre"> Wilmer Ancizar Benavides hernandez integrante de Leones	</p>
+			<p>Wilmer Benavides es un estudiante de ingenieria de sistemas en la Universidad del Cauca, integranre de la tribu Leones legendarios. 
+			Nacio el 04 de julio de 1996 en la ciudad de Ipiales-Nariño (Colombia), actualmente vive en Popayán.</p>
+
+			<div>							
+				<a name="GustosMusicales"></a>
+				<p id="GustosMusic">Musica preferida</p>
+				<div class="video">
+					<p>Mama Vieja - Los Viscondi</p>
+					<iframe width="400" height="300" src="https://www.youtube.com/watch?v=pZCtg-xcm4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<br></br>
+				<br></br>
+				</div>
+				<div class="video">
+					<p>Fria - Los Kjarkas</p>
+					<iframe width="400" height="300" src="https://www.youtube.com/watch?v=zisJ8oAV-CI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<br></br>
+				<br></br>
+				</div>	
+				
+			</div>
+			
+			<div>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>	
+				<br></br>
+				
+				<a name="LibrosFavoritos"></a>
+				<p id="librosfav">Libros favoritos</p>		
+				<div class="estante">
+					Juventud En Extasis
+					<a href="https://www.wattpad.com/426209509-juventud-en-%C3%A9xtasis-carlos-cuauht%C3%A9moc-s%C3%A1nchez"><img src="wilmerlibro1.jpg" id="libro"></a>
+				<br></br>
+				<br></br>
+				</div>	
+				<div class="estante">	
+					La Ultima Oportunidad 
+					<a href="https://www.storytel.com/mx/es/books/546373-La-ultima-oportunidad"> <img src="wilmerlibro2.jpg" id="libro"></a>	
+				<br></br>
+				<br></br>
+				</div>
+				<div class="estante">	
+					Emerge O Muere
+					<a href="https://edicionesselectasdiamante.com/index.php/todos-los-libros/emerge-o-muere-detail"><img src="wilmerlibro3.jpg" id="libro"></a>						
+				<br></br>
+				<br></br>
+				</div>
+				<div class="estante">		
+					El Grito Desesperado
+					<a href="https://www.wattpad.com/story/78894839-un-grito-desesperado-carlos-cuauht%C3%A9moc-s%C3%A1nchez"><img src="wilmerlibro4.jpg" id="libro"></a>
+				<br></br>
+				<br></br>
+				</div>
+			</div>
+			
+			
+			<div class="sugerencia">	
+				<br></br>	
+				<br></br>
+				<br></br>	
+				<br></br>	
+				
+				<a name="Sugerencias"></a>
+				<p id="sugerencias">Sugerencias</p>
+				<form action="ejemplo.php" method="get">
+					<p>Nombre: <input type="text" name="nombre" size="30"></p>
+
+					<p>Email: <input type="text" name="email" size="30"></p>
+
+					<p>Sexo:
+					  <input type="radio" name="sex" value="h"> Masculino
+					  <input type="radio" name="sex" value="m"> Femenino
+					  <input type="radio" name="sex" value="m"> Indefinido
+					</p>
+
+					<p>Pais: <input type="text" name="email" size="30"></p>
+
+					<p>Ciudad: <input type="text" name="email" size="30"></p>
+
+					<p>Sugerencia:
+					  <input type="text" name="sugerencia" size="30">
+					</p>
+
+					
+					<button type="enviar">Enviar</button>
+					
+					
+					
+				</form>			
+			</div>
+
+		</div>
+			
 </body>
 </html>

@@ -1,0 +1,81 @@
+body {
+  background-color: #e5e5e5;
+  font-family: fantasy;
+}
+h2{
+  text-align: center;
+  color:#e5e5e5;
+}
+#contenido{
+  background-color: #E6E6FA;
+  color:#000000;
+  font-family: fantasy;
+  font-size: 18px;
+  padding: 15px;
+}
+/*Defino el espacio para las columnas*/
+.leftColumn {
+  float: left;
+  width: 80%;
+  padding: 15px;  
+  background-color: #6A5ACD;
+  
+
+}
+.rigthtColumn {
+  float: right;
+  width: 10%;
+  padding: 15px;
+  background-color: #6A5ACD;
+}
+
+#frase{
+  background-color: #23374d;
+  text-align: justify;
+  font-size: 17px;
+  padding: 15px;
+  color:  #e5e5e5;
+}
+
+#nombre{
+  color: #e5e5e5;
+  text-align: center;
+  font-size: 25px;
+}
+.estante{
+  width: 25%;  
+  float:left;
+}
+#libro{
+  width: 200px;
+  height: 275px;
+  border-radius: 20px;
+  padding: 5px; 
+}
+
+#librosfav{
+  color: #e5e5e5;
+  text-align: left;
+  font-size: 20px;  
+}
+
+#GustosMusic{
+  color: #e5e5e5;
+  text-align: left;
+  font-size: 20px;  
+  padding: 15px;
+}
+.video{
+  width: 50%;  
+  float:left;
+}
+.sugerencia{
+  
+}
+#sugerencias{
+  color: #e5e5e5;
+  text-align: left;
+  font-size: 20px;  
+  padding: 15px;
+}
+
