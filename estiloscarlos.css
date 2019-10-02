@@ -1,7 +1,13 @@
-.column {
+.leftcolumn {
 	float:left;
 	width: 50%;
+	padding: 15px;
+	background-color: #1089ff;
 }
+#img_leon{
+	box-sizing: border-box;
+	border: black 18px solid;
+		}
 
 .link_ppal {
 	float:right;
@@ -14,7 +20,8 @@
 
 .rightColumn {
 	float:right;
-	width:16.6%;
+	width:13%;
+	border: white 2px solid;	
 }
 
 .rightColumn2 {
@@ -26,6 +33,25 @@
 	width:50%;
 }
 
-.fontColor1 {
-	color: rgb(255, 255, 255);
+.fontColor1{
+	color:rgb(0,0,0);
+	background-color: yellow;
+	padding: 35px 66px;
+	font-size: 21pt;
+}
+
+#sugerencias{
+  color: #23374d;
+  text-align: left;
+  font-size: 20px;  
+  padding: 15px;
+}
+
+.Estante{
+	background-color: yellow;
+}
+
+.sugerencia{
+	width:40%;  
+	float:left;
 }

@@ -2,14 +2,10 @@
 <html>
   <head id=cabecera>
     <meta charset="utf-8">
-	<link rel="stylesheet" href="estiloscarlos.css" />
+	<link rel="stylesheet" href="estiloscarlos - copia.css" />
 	<title>El sitio web de Rendon</title>
 	
     <style>
-		body{
-		    background-color:black;
-		}
-		
 		#nombre_grupo {
 			color: rgb(255, 255, 255);
 			background-color: blue;
@@ -22,11 +18,11 @@
 		
 		.slogan{
 		    color: rgb(255, 234, 0);
-		    /*background-color: blue;*/
+		    background-color: black;
 		    font-family: "Monaco", "Lucida Console", monospace;
 		    text-align: right;
 		    /*padding: 10px;*/
-		    /*border: blue 5px solid;*/
+		    border: blue 5px solid;
 		}
 		
 		#link_ppal2 {
@@ -42,13 +38,9 @@
 		    color: rgb(255, 255, 255);
 		    font-family: "Monaco", "Lucida Console", monospace;
 		    text-align: center;
+			background-color: black;
+			border: white 2px solid;
 		}
-		
-		#img_leon {
-		    box-sizing: border-box;
-		    border: white 18px solid;
-		}
-		
 		
 	</style>
 	</head>
@@ -64,20 +56,29 @@
     <body>
 	<div id="nombre">
 		<p><strong><i>Carlos A. Rendón</i></strong></p>
-    </div>
-    
-    <div class="column">
-    <center>
-    <a href="index.html"><img id="img_leon" src="carlosimg.jpg" alt="Italian Trulli" width="245"><br></a>
-    </center>
+    </div>    
+	<br></br>
+		
+	<div class="left column">
+		<div id="img_leon">
+		<center>
+		<a href="index.html"><img src="carlosimg.jpg" alt="Italian Trulli" width="245"><br></a>
+		
+		<p><strong>FRASE CÉLEBRE:</strong></p>
+		<p><strong>No dejes para mañana lo que puedes hacer hoy...</strong></p>
+		</center>
+		</div>	
     </div>
 	
-	<div class=fontColor1>
+	<div class="rightColumn2">
+	<div class="fontColor1">
 		<center>
-			<h3>libros favoritos</h3>
+			<p>libros favoritos</p>
 		</center>
 	</div>
+	</div>
 	
+	<div class="Estante">
 	<div class="rightColumn">
 		<center>
 		<a href="https://www.amazon.es/El-hombre-mas-rico-Babilonia/dp/1480086304"><img id="elhmasrico" src="libro3carlos.jpg" alt="Italian Trulli" width="100"><br></a>
@@ -95,7 +96,12 @@
 		<a href="https://www.amazon.es/Crimen-Castigo-Libros/s?k=Crimen+y+Castigo&rh=n%3A599364031"><img id="crimenycastigo" src="libro1carlos.jpg" alt="Italian Trulli" width="100"><br></a>
 		</center>
     </div>
-    
+    </div>
+	
+	<div class="rightColumn2">
+		<p><strong><i>Musica Favorita: Un remix de MACEO PLEX</i></strong></p>
+    </div>
+	
 	<div class="midColumn2">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/k2L-89uin4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
@@ -106,6 +112,34 @@
 			</center>		
 	</div>
     </body>
+	
+	<div class="sugerencia">				
+				<a name="Sugerencias"></a>
+				<p id="sugerencias">Sugerencias y/o Comentarios</p>
+				<form action="ejemplo.php" method="get">
+					<p>Nombre: <input type="text" name="nombre" size="35"></p>
+
+					<p>Email: <input type="text" name="email" size="38"></p>
+
+					<p>Sexo:
+					  <input type="radio" name="sex" value="h"> Masculino
+					  <input type="radio" name="sex" value="m"> Femenino
+					  <input type="radio" name="sex" value="m"> Indefinido
+					</p>
+
+					<p>Pais: <input type="text" name="email" size="39"></p>
+
+					<p>Ciudad: <input type="text" name="email" size="35"></p>
+
+					<p>Sugerencia: <input type="text" name="sugerencia" size="30"></p>
+
+					
+					<button type="enviar">Enviar</button>
+					
+					
+					
+				</form>			
+			</div>
         
   
 </html>
